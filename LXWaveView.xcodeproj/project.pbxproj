@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		776302B31D73CAF000124D4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 776302B21D73CAF000124D4B /* main.m */; };
+		776302B61D73CAF000124D4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 776302B51D73CAF000124D4B /* AppDelegate.m */; };
+		776302B91D73CAF000124D4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 776302B81D73CAF000124D4B /* ViewController.m */; };
+		776302BC1D73CAF000124D4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 776302BA1D73CAF000124D4B /* Main.storyboard */; };
+		776302BE1D73CAF000124D4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 776302BD1D73CAF000124D4B /* Assets.xcassets */; };
+		776302C11D73CAF000124D4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 776302BF1D73CAF000124D4B /* LaunchScreen.storyboard */; };
+		776302CC1D73CAF000124D4B /* LXWaveViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 776302CB1D73CAF000124D4B /* LXWaveViewTests.m */; };
+		776302D71D73CAF000124D4B /* LXWaveViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 776302D61D73CAF000124D4B /* LXWaveViewUITests.m */; };
+		776302E61D73CBFD00124D4B /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 776302E51D73CBFD00124D4B /* UIView+Frame.m */; };
+		776302E91D73CE1800124D4B /* LXWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 776302E81D73CE1800124D4B /* LXWaveView.m */; };
+		776302EE1D73DC5100124D4B /* IMG_1992.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 776302ED1D73DC5100124D4B /* IMG_1992.JPG */; };
+		776302F01D73DCA000124D4B /* IMG_1908.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 776302EF1D73DCA000124D4B /* IMG_1908.JPG */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		776302C81D73CAF000124D4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 776302A61D73CAF000124D4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 776302AD1D73CAF000124D4B;
+			remoteInfo = LXWaveView;
+		};
+		776302D31D73CAF000124D4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 776302A61D73CAF000124D4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 776302AD1D73CAF000124D4B;
+			remoteInfo = LXWaveView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		776302AE1D73CAF000124D4B /* LXWaveView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXWaveView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		776302B21D73CAF000124D4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		776302B41D73CAF000124D4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		776302B51D73CAF000124D4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		776302B71D73CAF000124D4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		776302B81D73CAF000124D4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		776302BB1D73CAF000124D4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		776302BD1D73CAF000124D4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		776302C01D73CAF000124D4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		776302C21D73CAF000124D4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		776302C71D73CAF000124D4B /* LXWaveViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXWaveViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		776302CB1D73CAF000124D4B /* LXWaveViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXWaveViewTests.m; sourceTree = "<group>"; };
+		776302CD1D73CAF000124D4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		776302D21D73CAF000124D4B /* LXWaveViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXWaveViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		776302D61D73CAF000124D4B /* LXWaveViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXWaveViewUITests.m; sourceTree = "<group>"; };
+		776302D81D73CAF000124D4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		776302E41D73CBFD00124D4B /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		776302E51D73CBFD00124D4B /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		776302E71D73CE1800124D4B /* LXWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXWaveView.h; sourceTree = "<group>"; };
+		776302E81D73CE1800124D4B /* LXWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXWaveView.m; sourceTree = "<group>"; };
+		776302ED1D73DC5100124D4B /* IMG_1992.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1992.JPG; sourceTree = "<group>"; };
+		776302EF1D73DCA000124D4B /* IMG_1908.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1908.JPG; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		776302AB1D73CAF000124D4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776302C41D73CAF000124D4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776302CF1D73CAF000124D4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		776302A51D73CAF000124D4B = {
+			isa = PBXGroup;
+			children = (
+				776302B01D73CAF000124D4B /* LXWaveView */,
+				776302CA1D73CAF000124D4B /* LXWaveViewTests */,
+				776302D51D73CAF000124D4B /* LXWaveViewUITests */,
+				776302AF1D73CAF000124D4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		776302AF1D73CAF000124D4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				776302AE1D73CAF000124D4B /* LXWaveView.app */,
+				776302C71D73CAF000124D4B /* LXWaveViewTests.xctest */,
+				776302D21D73CAF000124D4B /* LXWaveViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		776302B01D73CAF000124D4B /* LXWaveView */ = {
+			isa = PBXGroup;
+			children = (
+				776302B41D73CAF000124D4B /* AppDelegate.h */,
+				776302B51D73CAF000124D4B /* AppDelegate.m */,
+				776302B71D73CAF000124D4B /* ViewController.h */,
+				776302B81D73CAF000124D4B /* ViewController.m */,
+				776302E71D73CE1800124D4B /* LXWaveView.h */,
+				776302EF1D73DCA000124D4B /* IMG_1908.JPG */,
+				776302E81D73CE1800124D4B /* LXWaveView.m */,
+				776302E41D73CBFD00124D4B /* UIView+Frame.h */,
+				776302E51D73CBFD00124D4B /* UIView+Frame.m */,
+				776302ED1D73DC5100124D4B /* IMG_1992.JPG */,
+				776302BA1D73CAF000124D4B /* Main.storyboard */,
+				776302BD1D73CAF000124D4B /* Assets.xcassets */,
+				776302BF1D73CAF000124D4B /* LaunchScreen.storyboard */,
+				776302C21D73CAF000124D4B /* Info.plist */,
+				776302B11D73CAF000124D4B /* Supporting Files */,
+			);
+			path = LXWaveView;
+			sourceTree = "<group>";
+		};
+		776302B11D73CAF000124D4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				776302B21D73CAF000124D4B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		776302CA1D73CAF000124D4B /* LXWaveViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				776302CB1D73CAF000124D4B /* LXWaveViewTests.m */,
+				776302CD1D73CAF000124D4B /* Info.plist */,
+			);
+			path = LXWaveViewTests;
+			sourceTree = "<group>";
+		};
+		776302D51D73CAF000124D4B /* LXWaveViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				776302D61D73CAF000124D4B /* LXWaveViewUITests.m */,
+				776302D81D73CAF000124D4B /* Info.plist */,
+			);
+			path = LXWaveViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		776302AD1D73CAF000124D4B /* LXWaveView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 776302DB1D73CAF000124D4B /* Build configuration list for PBXNativeTarget "LXWaveView" */;
+			buildPhases = (
+				776302AA1D73CAF000124D4B /* Sources */,
+				776302AB1D73CAF000124D4B /* Frameworks */,
+				776302AC1D73CAF000124D4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXWaveView;
+			productName = LXWaveView;
+			productReference = 776302AE1D73CAF000124D4B /* LXWaveView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		776302C61D73CAF000124D4B /* LXWaveViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 776302DE1D73CAF000124D4B /* Build configuration list for PBXNativeTarget "LXWaveViewTests" */;
+			buildPhases = (
+				776302C31D73CAF000124D4B /* Sources */,
+				776302C41D73CAF000124D4B /* Frameworks */,
+				776302C51D73CAF000124D4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				776302C91D73CAF000124D4B /* PBXTargetDependency */,
+			);
+			name = LXWaveViewTests;
+			productName = LXWaveViewTests;
+			productReference = 776302C71D73CAF000124D4B /* LXWaveViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		776302D11D73CAF000124D4B /* LXWaveViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 776302E11D73CAF000124D4B /* Build configuration list for PBXNativeTarget "LXWaveViewUITests" */;
+			buildPhases = (
+				776302CE1D73CAF000124D4B /* Sources */,
+				776302CF1D73CAF000124D4B /* Frameworks */,
+				776302D01D73CAF000124D4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				776302D41D73CAF000124D4B /* PBXTargetDependency */,
+			);
+			name = LXWaveViewUITests;
+			productName = LXWaveViewUITests;
+			productReference = 776302D21D73CAF000124D4B /* LXWaveViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		776302A61D73CAF000124D4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = chuanglong02;
+				TargetAttributes = {
+					776302AD1D73CAF000124D4B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					776302C61D73CAF000124D4B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 776302AD1D73CAF000124D4B;
+					};
+					776302D11D73CAF000124D4B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 776302AD1D73CAF000124D4B;
+					};
+				};
+			};
+			buildConfigurationList = 776302A91D73CAF000124D4B /* Build configuration list for PBXProject "LXWaveView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 776302A51D73CAF000124D4B;
+			productRefGroup = 776302AF1D73CAF000124D4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				776302AD1D73CAF000124D4B /* LXWaveView */,
+				776302C61D73CAF000124D4B /* LXWaveViewTests */,
+				776302D11D73CAF000124D4B /* LXWaveViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		776302AC1D73CAF000124D4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776302EE1D73DC5100124D4B /* IMG_1992.JPG in Resources */,
+				776302C11D73CAF000124D4B /* LaunchScreen.storyboard in Resources */,
+				776302BE1D73CAF000124D4B /* Assets.xcassets in Resources */,
+				776302F01D73DCA000124D4B /* IMG_1908.JPG in Resources */,
+				776302BC1D73CAF000124D4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776302C51D73CAF000124D4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776302D01D73CAF000124D4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		776302AA1D73CAF000124D4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776302E61D73CBFD00124D4B /* UIView+Frame.m in Sources */,
+				776302B91D73CAF000124D4B /* ViewController.m in Sources */,
+				776302B61D73CAF000124D4B /* AppDelegate.m in Sources */,
+				776302E91D73CE1800124D4B /* LXWaveView.m in Sources */,
+				776302B31D73CAF000124D4B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776302C31D73CAF000124D4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776302CC1D73CAF000124D4B /* LXWaveViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776302CE1D73CAF000124D4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776302D71D73CAF000124D4B /* LXWaveViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		776302C91D73CAF000124D4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 776302AD1D73CAF000124D4B /* LXWaveView */;
+			targetProxy = 776302C81D73CAF000124D4B /* PBXContainerItemProxy */;
+		};
+		776302D41D73CAF000124D4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 776302AD1D73CAF000124D4B /* LXWaveView */;
+			targetProxy = 776302D31D73CAF000124D4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		776302BA1D73CAF000124D4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				776302BB1D73CAF000124D4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		776302BF1D73CAF000124D4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				776302C01D73CAF000124D4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		776302D91D73CAF000124D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		776302DA1D73CAF000124D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		776302DC1D73CAF000124D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXWaveView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chuanglong02.LXWaveView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		776302DD1D73CAF000124D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXWaveView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chuanglong02.LXWaveView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		776302DF1D73CAF000124D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXWaveViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chuanglong02.LXWaveViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXWaveView.app/LXWaveView";
+			};
+			name = Debug;
+		};
+		776302E01D73CAF000124D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXWaveViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chuanglong02.LXWaveViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXWaveView.app/LXWaveView";
+			};
+			name = Release;
+		};
+		776302E21D73CAF000124D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXWaveViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chuanglong02.LXWaveViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXWaveView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		776302E31D73CAF000124D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXWaveViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chuanglong02.LXWaveViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXWaveView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		776302A91D73CAF000124D4B /* Build configuration list for PBXProject "LXWaveView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776302D91D73CAF000124D4B /* Debug */,
+				776302DA1D73CAF000124D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		776302DB1D73CAF000124D4B /* Build configuration list for PBXNativeTarget "LXWaveView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776302DC1D73CAF000124D4B /* Debug */,
+				776302DD1D73CAF000124D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		776302DE1D73CAF000124D4B /* Build configuration list for PBXNativeTarget "LXWaveViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776302DF1D73CAF000124D4B /* Debug */,
+				776302E01D73CAF000124D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		776302E11D73CAF000124D4B /* Build configuration list for PBXNativeTarget "LXWaveViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776302E21D73CAF000124D4B /* Debug */,
+				776302E31D73CAF000124D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 776302A61D73CAF000124D4B /* Project object */;
+}
